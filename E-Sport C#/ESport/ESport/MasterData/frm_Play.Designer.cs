@@ -156,7 +156,7 @@
             this.lblPricePerHour.Name = "lblPricePerHour";
             this.lblPricePerHour.Size = new System.Drawing.Size(140, 38);
             this.lblPricePerHour.TabIndex = 11;
-            this.lblPricePerHour.Text = "500";
+            this.lblPricePerHour.Text = "10";
             // 
             // txtPlayedHours
             // 
