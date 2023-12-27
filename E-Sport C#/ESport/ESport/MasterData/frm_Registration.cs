@@ -70,9 +70,9 @@ namespace ESport.MasterData
                 txtCash.Focus();
                 txtCash.SelectAll();
             }
-            else if (Convert.ToInt32(txtCash.Text) < 3000 || Convert.ToInt32(txtCash.Text) > 100000)
+            else if (Convert.ToInt32(txtCash.Text) < 10 || Convert.ToInt32(txtCash.Text) > 1000)
             {
-                MessageBox.Show("Member Fees Should Be Between 3000 and 10,000");
+                MessageBox.Show("Member Fees Should Be Between 10 and 1000");
                 txtCash.Focus();
                 txtCash.SelectAll();
             }
