@@ -51,9 +51,9 @@ namespace ESport.MasterData
                 txtPrice.Focus();
                 txtPrice.SelectAll();
             }
-            else if (Convert.ToInt32(txtPrice.Text) < 500 || Convert.ToInt32(txtPrice.Text) > 5000)
+            else if (Convert.ToInt32(txtPrice.Text) < 1 || Convert.ToInt32(txtPrice.Text) > 100)
             {
-                MessageBox.Show("Price Should Be Between 500 and 5000");
+                MessageBox.Show("Price Should Be Between 1 and 100");
                 txtPrice.Focus();
             }
             else if (txtQty.Text.Trim().ToString() == string.Empty)
